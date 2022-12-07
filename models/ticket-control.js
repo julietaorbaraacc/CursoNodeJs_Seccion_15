@@ -4,7 +4,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 //Interno
-import data from '../db/data.json' assert {type: 'json'};
+//import data from '../db/data.json' assert {type: 'json'};
+import data from '../db/data.json';
 
 class Ticket {
 	constructor(numero, escritorio) {
